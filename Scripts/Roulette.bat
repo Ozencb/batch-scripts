@@ -1,4 +1,6 @@
 @Echo Off
+
+#Set movies directory here
 Set "source=D:\Movies"
 
 SetLocal EnableDelayedExpansion

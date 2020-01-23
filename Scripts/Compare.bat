@@ -1,7 +1,11 @@
-echo "A simple shell script that compares the contents of two folders. Manually edit the path before executing the script. Starting in 10 seconds..."
-timeout 10
+echo "A simple shell script that compares the contents of two folders. Manually edit the path before executing the script. Starting in 3 seconds..."
+timeout 3
 
-TREE  D:\Movies /A /F >D:\Downloads\Src.txt
-TREE  E:\Movies /A /F >D:\Downloads\Dest.txt
-%SystemRoot%\explorer.exe "D:\Downloads"
+#Set directory 1 here and make sure that target root for output txt file exists
+TREE  D:\Movies /A /F >D:\Src.txt
+
+#Set directory 2 here and make sure that target root for output txt file exists
+TREE  E:\Movies /A /F >D:\Dest.txt
+
+%SystemRoot%\explorer.exe "D:\"
 start "" https://www.diffchecker.com
