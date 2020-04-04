@@ -1,0 +1,1 @@
+youtube-dl -r 1500K --extract-audio --audio-format mp3 -o "D:\Downloads\Audio\%%(title)s.%%(ext)s" %1

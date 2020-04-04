@@ -1,0 +1,1 @@
+for /R %%f IN (*.%1) DO ffmpeg -i "%%f" -c copy "%%~nf.%2"

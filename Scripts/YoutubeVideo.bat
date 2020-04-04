@@ -1,0 +1,1 @@
+youtube-dl -r 1500K -o "D:\Downloads\Videos\%%(title)s.%%(ext)s" %1
