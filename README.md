@@ -1,4 +1,4 @@
-Some of my Windows batch scripts.
+Various shell scripts
 
 ## Contents 
 
